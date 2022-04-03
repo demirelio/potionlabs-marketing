@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: black;
+    color: white;
+}
+
+@font-face {
+    font-family: "jakarta-700";
+    src: url("../fonts/PlusJakartaSans-Bold.woff2");
+}
+
+@font-face {
+    font-family: "jakarta-700-italic";
+    src: url("../fonts/PlusJakartaSans-BoldItalic.woff2");
+}
+
+@font-face {
+    font-family: "jakarta-800";
+    src: url("../fonts/PlusJakartaSans-ExtraBold.woff2");
+}
+
+@font-face {
+    font-family: "jakarta-800-italic";
+    src: url("../fonts/PlusJakartaSans-ExtraBoldItalic.woff2");
+}
+
+@font-face {
+    font-family: "jakarta-200";
+    src: url("../fonts/PlusJakartaSans-ExtraLight.woff2");
+}
+
+@font-face {
+    font-family: "jakarta-200-italic";
+    src: url("../fonts/PlusJakartaSans-ExtraLightItalic.woff2");
+}
+
+@font-face {
+    font-family: "jakarta-400-italic";
+    src: url("../fonts/PlusJakartaSans-Italic.woff2");
+}
+
+@font-face {
+    font-family: "jakarta-300";
+    src: url("../fonts/PlusJakartaSans-Light.woff2");
+}
+
+@font-face {
+    font-family: "jakarta-300-italic";
+    src: url("../fonts/PlusJakartaSans-LightItalic.woff2");
+}
+
+@font-face {
+    font-family: "jakarta-500";
+    src: url("../fonts/PlusJakartaSans-Medium.woff2");
+}
+
+@font-face {
+    font-family: "jakarta-500-italic";
+    src: url("../fonts/PlusJakartaSans-MediumItalic.woff2");
+}
+
+@font-face {
+    font-family: "jakarta-400";
+    src: url("../fonts/PlusJakartaSans-Regular.woff2");
+}
+
+@font-face {
+    font-family: "jakarta-600";
+    src: url("../fonts/PlusJakartaSans-SemiBold.woff2");
+}
+
+@font-face {
+    font-family: "jakarta-600-italic";
+    src: url("../fonts/PlusJakartaSans-SemiBoldItalic.woff2");
+}
