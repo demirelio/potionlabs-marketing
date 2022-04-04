@@ -8,7 +8,7 @@ export const Hero = () => {
     <section className="grid grid-cols-1 lg:grid-cols-2 gap-16 py-[36px] px-[24px] lg:px-[48px] lg:pr-0 items-center">
       <div>
         <div className="max-w-full lg:max-w-2xl mx-auto grid grid-cols-1 gap-6">
-          <h1 className="font-jakarta800 text-white text-3xl md:text-4xl lg:text-5xl xl:text-6xl tracking-wide xl:leading-tight">
+          <h1 className="font-jakarta800 text-white text-3xl md:text-4xl lg:text-5xl xl:text-6xl tracking-wide xl:leading-none">
             We <span className="text-yellow-500">design & develop unlimited</span> HTML Emails with a <span className="text-green-500">monthly fixed price.</span> <span className="underline decoration-pink-500">No surprise fees or hidden costs.</span>
           </h1>
           <p className="font-jakarta500 text-[#fff] text-lg md:text-xl md:pr-[10rem] md:leading-relaxed">
@@ -16,7 +16,7 @@ export const Hero = () => {
           </p>
           <div className="flex gap-4 items-center justify-start">
             <Link to='/' className="font-jakarta500 bg-[#540D6E] hover:bg-[#651184] py-3 px-12 text-white rounded">Get Started</Link>
-            <Link to='/' className="font-jakarta500 bg-transparent border-2 border-white hover:border-[#651184] py-3 px-12 text-white rounded">Book a Call</Link>
+            <a href='https://tawk.to/chat/624b51fc2abe5b455fc4964e/1fvr3ghdo' target='_blank' className="font-jakarta500 bg-transparent border-2 border-white hover:border-[#651184] py-3 px-12 text-white rounded">Let's Talk</a>
           </div>
         </div>
       </div>
