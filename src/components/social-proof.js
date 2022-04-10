@@ -3,7 +3,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 export default function SocialProof() {
   return (
-    <section className="max-w-5xl my-[36px]  mx-[24px] lg:mt-20 lg:mx-auto grid gap-8 xl:min-w-[1024px]">
+    <section className="max-w-5xl py-[36px] px-[24px] lg:px-[48px] lg:pt-20 lg:mx-auto grid gap-8 xl:min-w-[1024px]">
       <h1 className="font-jakarta800 text-white text-3xl md:text-4xl lg:text-5xl xl:text-6xl tracking-wide xl:leading-none">
         You are in good hands
       </h1>
