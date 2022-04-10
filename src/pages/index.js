@@ -1,5 +1,7 @@
 import React from "react"
 import Advantages from "../components/Advantages"
+import { FeatureList } from "../components/feature-list"
+import Features from "../components/Features"
 import { Hero } from "../components/Hero"
 import Layout from "../components/Layout"
 import { Nav } from "../components/Nav"
@@ -14,6 +16,8 @@ export default function Home() {
       <SocialProof />
       <Advantages />
       <Steps />
+      <Features />
+      <FeatureList />
   </Layout>
   )
 }

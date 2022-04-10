@@ -4,9 +4,9 @@ import { StaticImage } from "gatsby-plugin-image"
 export default function SocialProof() {
   return (
     <section className="max-w-5xl py-[36px] px-[24px] lg:px-[48px] lg:pt-20 lg:mx-auto grid gap-8 xl:min-w-[1024px]">
-      <h1 className="font-jakarta800 text-white text-3xl md:text-4xl lg:text-5xl xl:text-6xl tracking-wide xl:leading-none">
+      <h2 className="font-jakarta800 text-white text-3xl md:text-4xl lg:text-5xl xl:text-6xl tracking-wide xl:leading-none">
         You are in good hands
-      </h1>
+      </h2>
       <div className="lg:max-w-lg">
       <StaticImage src="../../static/quote-left-solid.svg" alt="Quote left" className="m-0 max-w-[16px]" />
       <p className="font-jakarta500 text-[#d0d0d0] text-base  md:leading-relaxed">
