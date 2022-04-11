@@ -3,6 +3,7 @@ import Advantages from "../components/Advantages"
 import ClientInfo from "../components/ClientInfo"
 import CTA from "../components/cta"
 import { EmailClientList } from "../components/EmailClientList"
+import FAQs from "../components/faq"
 import { FeatureList } from "../components/feature-list"
 import Features from "../components/Features"
 import { Hero } from "../components/Hero"
@@ -25,6 +26,7 @@ export default function Home() {
       <ClientInfo />
       <EmailClientList />
       <Pricing />
+      <FAQs />
       <CTA />
   </Layout>
   )
