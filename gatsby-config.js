@@ -16,7 +16,7 @@ module.exports = {
       resolve: `gatsby-plugin-tawk.to`,
       options: {
         tawkId: "624b51fc2abe5b455fc4964e",
-        tawkKey: "69c4885378135ad5b30dc93f0a8fd103e5e91900",
+        tawkKey: "1fvr3ghdo",
         // get this from the tawk script widget
       },
     },
