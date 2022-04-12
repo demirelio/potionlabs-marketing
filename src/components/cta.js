@@ -10,7 +10,7 @@ export default function CTA() {
       <div className="lg:max-w-3xl">
         <div className="flex gap-4 items-center justify-start">
           <Link to='/' className="font-jakarta500 bg-[#FFD23F] hover:bg-yellow-500 py-3 px-12 text-black rounded">Get Started</Link>
-          <a href='https://tawk.to/chat/624b51fc2abe5b455fc4964e/1fvr3ghdo' target='_blank' className="font-jakarta500 bg-transparent border-2 border-white hover:border-[#FFD23F] py-3 px-12 text-white rounded">Let's Talk</a>
+          <a href='https://superpeer.com/alchemist' target='_blank' className="font-jakarta500 bg-transparent border-2 border-white hover:border-[#FFD23F] py-3 px-12 text-white rounded">Let's Talk</a>
         </div>
       </div>
     </section>

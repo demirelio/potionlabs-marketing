@@ -18,7 +18,7 @@ export default function Pricing() {
           <p className="text-3xl font-jakarta600">$495/<span className="text-xl">month</span></p>
           <div className="flex flex-col items-stretch text-center gap-2">
           <Link to='/' className="font-jakarta700 bg-[#FFD23F] hover:bg-yellow-500 py-3 mt-2  text-black rounded">Get Started</Link>
-          <a href='#' className="text-[#d0d0d0] hover:underline text-sm">Book a call</a>
+          <a href='https://superpeer.com/alchemist' className="text-[#d0d0d0] hover:underline text-sm">Book a call</a>
           </div>
           <h4 className="font-jakarta600 mt-6">What's included?</h4>
           <div className="font-jakarta400 text-[#d0d0d0] grid gap-2">
