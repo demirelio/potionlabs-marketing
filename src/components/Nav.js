@@ -1,10 +1,12 @@
 import { Link } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 import React from "react"
 
 export const Nav = () => {
     return (
         <nav className="flex flex-row justify-between items-center py-[36px] px-[24px] lg:px-[48px]">
-          <div>
+          <div className="flex gap-2 items-center">
+            <StaticImage src="../../static/logo-2.png" alt="Potionlabs" className="max-w-[32px]"/>
             <p className="font-jakarta500 text-lg">potion labs</p>
           </div>
           <div className="text-sm lg:text-base font-jakarta500 flex flex-row gap-6 lg:gap-9 flex-wrap hidden">
