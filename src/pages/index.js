@@ -17,19 +17,29 @@ import ogImage from "../../static/og-image.png"
 
 export default function Home() {
   return (
-  <Layout>
-    <Helmet>
-      <title>Potion Labs | Unlimited HTML Emails for a monthly fixed price.</title>
-      <meta name="description" content="We build top of the quality HTML emails with best practices for you. You focus on your clients and grow your business. No last-minute contractor hunting, no hourly rate negotiations, or paying extra for revisions." />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta charset="UTF-8" />
+    <Layout>
+      <Helmet>
+        <title>Potion Labs | Unlimited HTML Emails for a monthly fixed price.</title>
+        <meta name="description" content="We build top of the quality HTML emails with best practices for you. You focus on your clients and grow your business. No last-minute contractor hunting, no hourly rate negotiations, or paying extra for revisions." />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8" />
 
-      <meta property="og:title" content="Potion Labs | Unlimited HTML Emails for a monthly fixed price." />
-      <meta property="og:description" content="We build top of the quality HTML emails with best practices for you. You focus on your clients and grow your business. No last-minute contractor hunting, no hourly rate negotiations, or paying extra for revisions." />
-      <meta property="og:url" content="https://potionlabs.io" />
-      <meta property="og:type" content="website" />
-      <meta property="og:image" content={ogImage}/>
-    </Helmet>
+        <meta property="og:title" content="Potion Labs | Unlimited HTML Emails for a monthly fixed price." />
+        <meta property="og:description" content="We build top of the quality HTML emails with best practices for you. You focus on your clients and grow your business. No last-minute contractor hunting, no hourly rate negotiations, or paying extra for revisions." />
+        <meta property="og:url" content="https://potionlabs.io" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content={ogImage} />
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-7M6ZX5RWZM"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-7M6ZX5RWZM');
+        </script>
+      </Helmet>
       <Nav />
       <Hero />
       <SocialProof />
@@ -42,6 +52,6 @@ export default function Home() {
       <Pricing />
       <FAQs />
       <CTA />
-  </Layout>
+    </Layout>
   )
 }
