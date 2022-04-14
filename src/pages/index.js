@@ -30,15 +30,6 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta property="og:image" content={ogImage} />
 
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-7M6ZX5RWZM"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-7M6ZX5RWZM');
-        </script>
       </Helmet>
       <Nav />
       <Hero />
