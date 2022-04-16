@@ -7,6 +7,10 @@ body {
     color: white;
 }
 
+.gumroad-button-logo {
+    display: none !important;
+}
+
 @font-face {
     font-family: "jakarta-700";
     src: url("../fonts/PlusJakartaSans-Bold.woff2");

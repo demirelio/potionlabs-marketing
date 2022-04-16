@@ -15,7 +15,7 @@ export const Hero = () => {
             We build top of the quality HTML emails with best practices for you. You focus on your clients and grow your business. <span className="underline decoration-2 decoration-red-500">No last-minute contractor hunting</span>, <span className="underline decoration-2 decoration-blue-500">no hourly rate negotiations</span>, or <span className="underline decoration-2 decoration-green-500">paying extra for revisions</span>.
           </p>
           <div className="flex gap-4 items-center justify-start">
-            <Link to='/' className="font-jakarta500 bg-[#FFD23F] hover:bg-yellow-500 py-3 px-12 text-black rounded">Get Started</Link>
+            <a href="https://store.potionlabs.io/l/unlimited-html-emails?wanted=true" className="font-jakarta500 bg-[#FFD23F] hover:bg-yellow-500 py-3 px-12 text-black rounded">Get Started</a>
             <a href='https://superpeer.com/alchemist' target='_blank' className="font-jakarta500 bg-transparent border-2 border-white hover:border-[#FFD23F] py-3 px-12 text-white rounded">Let's Talk</a>
           </div>
         </div>

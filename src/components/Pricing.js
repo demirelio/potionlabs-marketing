@@ -1,9 +1,12 @@
 import { Link } from "gatsby"
 import React from "react"
-
+import Helmet from "react-helmet"
 export default function Pricing() {
   return (
     <section className="max-w-5xl py-[36px] px-[24px] lg:px-[48px] lg:pt-20 lg:mx-auto grid gap-8 lg:min-w-[1024px]">
+      <Helmet>
+      <script src="https://store.potionlabs.io/js/gumroad.js" type="text/javascript"></script>
+      </Helmet>
       <h2 className="font-jakarta800 text-white text-3xl md:text-4xl lg:text-5xl xl:text-6xl tracking-wide lg:leading-tight xl:leading-tight">
       One simple pricing for unlimited HTML Emails
       </h2>
@@ -15,10 +18,10 @@ export default function Pricing() {
         <div className="col-span-1 lg:col-span-2 font-jakarta500 bg-[#201E1E] rounded-2xl px-6 py-12 flex flex-col gap-4">
           <h3 className="text-xl font-jakarta600">Unlimited HTML Emails</h3>
           <p className="text-sm text-[#d0d0d0] leading-relaxed">For <span className="underline decoration-emerald-500 decoration-2">companies</span> and <span className="underline decoration-pink-500 decoration-2">digital marketing agencies</span> with ongoing HTML Email needs.</p>
-          <p className="text-3xl font-jakarta600">$495/<span className="text-xl">month</span></p>
+          <p className="text-3xl font-jakarta600">$495/<span className="text-xl">month</span><span className="text-sm font-jakarta200"> + vat</span></p>
           <div className="flex flex-col items-stretch text-center gap-2">
-          <Link to='/' className="font-jakarta700 bg-[#FFD23F] hover:bg-yellow-500 py-3 mt-2  text-black rounded">Get Started</Link>
-          <a href='https://superpeer.com/alchemist' className="text-[#d0d0d0] hover:underline text-sm">Book a call</a>
+          <a href="https://store.potionlabs.io/l/unlimited-html-emails?wanted=true" className="font-jakarta700 bg-[#FFD23F] hover:bg-yellow-500 py-3 mt-2  text-black rounded">Get Started</a>
+          <a href='https://superpeer.com/alchemist' className=" text-[#d0d0d0] hover:underline text-sm">Book a call</a>
           </div>
           <h4 className="font-jakarta600 mt-6">What's included?</h4>
           <div className="font-jakarta400 text-[#d0d0d0] grid gap-2">
