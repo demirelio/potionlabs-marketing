@@ -19,7 +19,6 @@ export default function Home() {
     <Layout>
       <Seo 
         title={"Potion Labs | Unlimited HTML Emails for a monthly fixed price."} 
-        image={"/og-image.png"} 
         desc="We build top of the quality HTML emails with best practices for you. You focus on your clients and grow your business. No last-minute contractor hunting, no hourly rate negotiations, or paying extra for revisions." 
         canonical="https://potionlabs.io"
       />
