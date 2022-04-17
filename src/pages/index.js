@@ -12,25 +12,16 @@ import { Nav } from "../components/Nav"
 import Pricing from "../components/Pricing"
 import SocialProof from "../components/social-proof"
 import { Steps } from "../components/Steps"
-import { Helmet } from "react-helmet"
-import ogImage from "../../static/og-image.png"
+import Seo from "../components/Seo"
 
 export default function Home() {
   return (
     <Layout>
-      <Helmet>
-        <title>Potion Labs | Unlimited HTML Emails for a monthly fixed price.</title>
-        <meta name="description" content="We build top of the quality HTML emails with best practices for you. You focus on your clients and grow your business. No last-minute contractor hunting, no hourly rate negotiations, or paying extra for revisions." />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta charset="UTF-8" />
-
-        <meta property="og:title" content="Potion Labs | Unlimited HTML Emails for a monthly fixed price." />
-        <meta property="og:description" content="We build top of the quality HTML emails with best practices for you. You focus on your clients and grow your business. No last-minute contractor hunting, no hourly rate negotiations, or paying extra for revisions." />
-        <meta property="og:url" content="https://potionlabs.io" />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" content={ogImage} />
-
-      </Helmet>
+      <Seo 
+        title={"Potion Labs | Unlimited HTML Emails for a monthly fixed price."} 
+        desc="We build top of the quality HTML emails with best practices for you. You focus on your clients and grow your business. No last-minute contractor hunting, no hourly rate negotiations, or paying extra for revisions." 
+        canonical="https://potionlabs.io"
+      />
       <Nav />
       <Hero />
       <SocialProof />
