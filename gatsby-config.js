@@ -20,5 +20,11 @@ module.exports = {
         // get this from the tawk script widget
       },
     },
+    {
+      resolve: 'gatsby-plugin-google-gtag',
+      options: {
+        trackingIds: ['G-7M6ZX5RWZM'],
+      },
+    },
   ],
 }
