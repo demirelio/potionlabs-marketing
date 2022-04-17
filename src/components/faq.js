@@ -6,11 +6,19 @@ const data = {
   rows: [
       {
           title: "Who is designing/building our emails?",
-          content: `In Potion Labs we don't have account managers. The person whom you will be in contact creates your emails. That makes things even faster, because we will be in active collaboration with you.`,
+          content: `In Potion Labs, we don't have account managers. The person who talks to you builds your emails as well. We ensure our devs understand you without any middleman.`,
+      },
+      {
+          title: "Where are you located?",
+          content: `Potion Labs is based in beautiful Warsaw, Poland.`,
+      },
+      {
+          title: "Do you provide invoices and receipts?",
+          content: `Our payment provider is Gumroad. You can generate your invoice in their system anytime you want.`,
       },
       {
           title: "Why you work on a subscription instead of a project based pricing?",
-          content: `Project-based pricing is not beneficial for both our clients and us. Each project cycle requires a new set of agreements on pricing, project scope, terms and conditions, and how we collaborate. When you subscribe, all those mundane tasks are eliminated. We deliver faster, and you never miss deadlines with your clients. Plus, no more paying extra because your client changed their minds.`,
+          content: `Project-based pricing is inefficient. It takes a lot of time to agree on simple things like pricing, NDAs, project scope, etc. We like to keep things simple. That makes us more efficient and gives you more room to find more clients than fighting with freelancers.`,
       },
       {
           title: "Is it really unlimited requests?",
@@ -27,7 +35,7 @@ const data = {
       },
       {
           title: "How do I request an email?",
-          content: `Potion Labs creates a highly flexible Notion Dashbaord for you. Our clients usually create their tasks in feed the Notion task with Google Docs, PDF files, or other design files like Photoshop and Illustrator. They also provide text briefs along with source files. Simply, if you can put it on Notion, we can do it.`,
+          content: `Potion Labs creates a custom Notion Dashboard for you. You will be able to write and upload unlimited content to your tasks. No more email traffic, losing track of submitted or received files and conflicting comments.`,
       },
       {
           title: "Are there any contracts to use your service?",

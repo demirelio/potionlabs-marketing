@@ -11,6 +11,12 @@ export const FeatureList  = () => {
       </div>
 
       <div className="bg-[#201E1E] rounded-2xl p-6 flex flex-col gap-1 max-w-xs">
+        <StaticImage src="../../static/sliders-solid.svg" alt="Infinity" className="w-[38px]" />
+        <p className="font-jakarta800 text-[#fff] text-base pt-2 md:leading-relaxed">Dynamic emails</p>
+        <p className="font-jakarta500 text-[#d0d0d0] text-base  md:leading-relaxed">Toggles, navbars, and  product sliders are no problem for us</p>
+      </div>
+
+      <div className="bg-[#201E1E] rounded-2xl p-6 flex flex-col gap-1 max-w-xs">
         <StaticImage src="../../static/dollar.svg" alt="Infinity" className="w-[24px]" />
         <p className="font-jakarta800 text-[#fff] text-base pt-2 md:leading-relaxed">Fixed monthly price</p>
         <p className="font-jakarta500 text-[#d0d0d0] text-base  md:leading-relaxed">Pay the same fixed price each month.</p>
@@ -49,7 +55,7 @@ export const FeatureList  = () => {
       <div className="bg-[#201E1E] rounded-2xl p-6 flex flex-col gap-1 max-w-xs">
         <StaticImage src="../../static/envelope.svg" alt="Infinity" className="max-w-[50px]" />
         <p className="font-jakarta800 text-[#fff] text-base pt-2 md:leading-relaxed">Tests in 40+ clients</p>
-        <p className="font-jakarta500 text-[#d0d0d0] text-base  md:leading-relaxed">All emails are tested in 40+ clients.</p>
+        <p className="font-jakarta500 text-[#d0d0d0] text-base  md:leading-relaxed">All emails are tested in 40+ clients. Even Outlook.</p>
       </div>
 
       <div className="bg-[#201E1E] rounded-2xl p-6 flex flex-col gap-1 max-w-xs">
@@ -60,14 +66,14 @@ export const FeatureList  = () => {
 
       <div className="bg-[#201E1E] rounded-2xl p-6 flex flex-col gap-1 max-w-xs">
         <StaticImage src="../../static/mailchimp.svg" alt="Infinity" className="w-[34px]" />
-        <p className="font-jakarta800 text-[#fff] text-base pt-2 md:leading-relaxed">Easily upload in your ESPs & mailers</p>
+        <p className="font-jakarta800 text-[#fff] text-base pt-2 md:leading-relaxed">Easily upload in your ESPs</p>
         <p className="font-jakarta500 text-[#d0d0d0] text-base  md:leading-relaxed">Custom HTML structure for your mailers and ESPs</p>
       </div>
 
       <div className="bg-[#201E1E] rounded-2xl p-6 flex flex-col gap-1 max-w-xs">
         <StaticImage src="../../static/microsoft.svg" alt="Infinity" className="w-[34px]" />
         <p className="font-jakarta800 text-[#fff] text-base pt-2 md:leading-relaxed">OFT Email development</p>
-        <p className="font-jakarta500 text-[#d0d0d0] text-base  md:leading-relaxed">Not just HTML but also Outlook Email template creation</p>
+        <p className="font-jakarta500 text-[#d0d0d0] text-base  md:leading-relaxed">Outlook Email template creation</p>
       </div>
 
     </section>

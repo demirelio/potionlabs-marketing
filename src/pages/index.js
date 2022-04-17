@@ -13,15 +13,17 @@ import Pricing from "../components/Pricing"
 import SocialProof from "../components/social-proof"
 import { Steps } from "../components/Steps"
 import Seo from "../components/Seo"
+import TopBanner from "../components/top-banner"
 
 export default function Home() {
   return (
     <Layout>
-      <Seo 
-        title={"Potion Labs | Unlimited HTML Emails for a monthly fixed price."} 
-        desc="We build top of the quality HTML emails with best practices for you. You focus on your clients and grow your business. No last-minute contractor hunting, no hourly rate negotiations, or paying extra for revisions." 
+      <Seo
+        title={"Potion Labs | We build unlimited HTML Emails for a monthly fixed price."}
+        desc="No surprise fees or hidden costs, no last-minute contractor hunting, no hourly rate negotiations, or paying extra for revisions."
         canonical="https://potionlabs.io"
       />
+      <TopBanner />
       <Nav />
       <Hero />
       <SocialProof />

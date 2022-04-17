@@ -17,7 +17,7 @@ export const Steps = () => {
 
       <div className="bg-[#201E1E] rounded-2xl p-6 flex flex-col gap-1 max-w-lg">
         <p className="font-jakarta600 text-[#FFD23F] text-base  md:leading-relaxed">Step 3</p>
-        <p className="font-jakarta800 text-[#fff] text-lg pt-2 md:leading-relaxed">We will send your personalized dashboard link</p>
+        <p className="font-jakarta800 text-[#fff] text-lg pt-2 md:leading-relaxed">Receive your first HTML email in less than 24h</p>
         <p className="font-jakarta500 text-[#d0d0d0] text-base  md:leading-relaxed">Create unlimited tasks, invite unlimited collaborators and never lose track of your requests.</p>
       </div>
     </section>

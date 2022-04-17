@@ -8,8 +8,8 @@ export default function CTA() {
         Contact and see if Potion Labs is for you. What are you waiting for?
       </h1>
       <div className="lg:max-w-3xl">
-        <div className="flex gap-4 items-center justify-start">
-          <Link href="/#pricing" className="font-jakarta500 bg-[#FFD23F] hover:bg-yellow-500 py-3 px-12 text-black rounded">Get Started</Link>
+        <div className="flex md:flex-row flex-col gap-4 text-center items-stretch md:items-start md:justify-start">
+          <Link href="/#pricing" className="font-jakarta500 bg-[#FFD23F] hover:bg-yellow-500 py-3 px-12 text-black rounded">Get started in 5 minutes</Link>
           <a href='https://superpeer.com/alchemist' target='_blank' className="font-jakarta500 bg-transparent border-2 border-white hover:border-[#FFD23F] py-3 px-12 text-white rounded">Let's Talk</a>
         </div>
       </div>
