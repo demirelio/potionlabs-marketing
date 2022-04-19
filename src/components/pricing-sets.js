@@ -20,7 +20,8 @@ export default function PricingSets() {
             <p><span className="pr-4 text-sm">✅</span>All files are yours</p>
           </div>
         </div>
-        <div className="col-span-1 lg:col-span-2 xl:col-span-2 font-jakarta500 bg-[#201E1E] rounded-2xl px-6 py-12 flex flex-col gap-4">
+        <div className="relative col-span-1 lg:col-span-2 xl:col-span-2 font-jakarta500 bg-[#201E1E] rounded-2xl px-6 py-12 flex flex-col gap-4">
+          <p className="absolute top-[-15px] px-5 py-2 left-5 bg-red-600 rounded-full text-base">Most popular</p>
           <h3 className="text-xl font-jakarta600">Unlimited HTML Emails</h3>
           <p className="text-sm text-[#d0d0d0] leading-relaxed">For companies and digital marketing agencies <span className="underline decoration-green-500 decoration-2">with ongoing HTML Email needs.</span></p>
           <p className="text-3xl font-jakarta600">$495/<span className="text-xl">month</span><span className="text-sm font-jakarta200"> + vat</span></p>
