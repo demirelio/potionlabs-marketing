@@ -14,6 +14,7 @@ import SocialProof from "../components/social-proof"
 import { Steps } from "../components/Steps"
 import Seo from "../components/Seo"
 import TopBanner from "../components/top-banner"
+import PricingSets from "../components/pricing-sets"
 
 export default function Home() {
   return (
@@ -34,6 +35,7 @@ export default function Home() {
       <ClientInfo />
       <EmailClientList />
       <Pricing />
+      <PricingSets />
       <FAQs />
       <CTA />
     </Layout>
