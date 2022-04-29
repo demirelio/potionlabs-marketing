@@ -7,7 +7,7 @@ export default function PricingSets() {
           <p className="text-sm text-[#d0d0d0] leading-relaxed"><span className="underline decoration-pink-500 decoration-2">Single HTML Email task</span> best for newsletters and small businesses.</p>
           <p className="text-3xl font-jakarta600">$99<span className="text-sm font-jakarta200"> + vat</span></p>
           <div className="flex flex-col items-stretch text-center gap-2">
-          <a href="https://store.potionlabs.io/l/single-html-email-template?wanted=true" className="font-jakarta700 bg-[#FFD23F] hover:bg-yellow-500 py-3 mt-2  text-black rounded">Request now</a>
+          <a href="https://emredemirel.gumroad.com/l/single-html-email-template?wanted=true" className="font-jakarta700 bg-[#FFD23F] hover:bg-yellow-500 py-3 mt-2  text-black rounded">Request now</a>
           <a href='https://superpeer.com/alchemist' className=" text-[#d0d0d0] hover:underline text-sm">Book a call</a>
           </div>
           <h4 className="font-jakarta600 mt-6">What's included?</h4>
