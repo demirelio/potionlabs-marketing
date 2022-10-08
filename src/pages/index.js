@@ -24,7 +24,6 @@ export default function Home() {
         desc="No surprise fees or hidden costs, no last-minute contractor hunting, no hourly rate negotiations, or paying extra for revisions."
         canonical="https://potionlabs.io"
       />
-      <TopBanner />
       <Nav />
       <Hero />
       <SocialProof />
