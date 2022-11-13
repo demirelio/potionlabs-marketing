@@ -7,8 +7,8 @@ export default function PricingSets() {
           <p className="text-sm text-[#d0d0d0] leading-relaxed"><span className="underline decoration-pink-500 decoration-2">Single HTML Email task</span> best for newsletters and small businesses.</p>
           <p className="text-3xl font-jakarta600">$99<span className="text-sm font-jakarta200"> + vat</span></p>
           <div className="flex flex-col items-stretch text-center gap-2">
-          <a href="https://emredemirel.gumroad.com/l/single-html-email-template?wanted=true" className="font-jakarta700 bg-[#FFD23F] hover:bg-yellow-500 py-3 mt-2  text-black rounded">Request now</a>
-          <a href='https://superpeer.com/alchemist' className=" text-[#d0d0d0] hover:underline text-sm">Book a call</a>
+          <a href="mailto:emre@demirel.io" className="font-jakarta700 bg-[#FFD23F] hover:bg-yellow-500 py-3 mt-2  text-black rounded">Request now</a>
+          <a href='mailto:emre@demirel.io' className=" text-[#d0d0d0] hover:underline text-sm">Contact us</a>
           </div>
           <h4 className="font-jakarta600 mt-6">What's included?</h4>
           <div className="font-jakarta400 text-[#d0d0d0] grid gap-2">
@@ -26,8 +26,8 @@ export default function PricingSets() {
           <p className="text-sm text-[#d0d0d0] leading-relaxed">For companies and digital marketing agencies <span className="underline decoration-green-500 decoration-2">with ongoing HTML Email needs.</span></p>
           <p className="text-3xl font-jakarta600">$495/<span className="text-xl">month</span><span className="text-sm font-jakarta200"> + vat</span></p>
           <div className="flex flex-col items-stretch text-center gap-2">
-          <a href="https://superpeer.com/alchemist" className="font-jakarta700 bg-[#FFD23F] hover:bg-yellow-500 py-3 mt-2  text-black rounded">Get Started in 5 minutes</a>
-          <a href='https://superpeer.com/alchemist' className=" text-[#d0d0d0] hover:underline text-sm">Book a call</a>
+          <a href="mailto:emre@demirel.io" className="font-jakarta700 bg-[#FFD23F] hover:bg-yellow-500 py-3 mt-2  text-black rounded">Get Started in 5 minutes</a>
+          <a href='mailto:emre@demirel.io' className=" text-[#d0d0d0] hover:underline text-sm">Contact us</a>
           </div>
           <h4 className="font-jakarta600 mt-6">What's included?</h4>
           <div className="font-jakarta400 text-[#d0d0d0] grid gap-2">
@@ -47,8 +47,8 @@ export default function PricingSets() {
           <p className="text-sm text-[#d0d0d0] leading-relaxed">For companies and agencies who need <span className="underline decoration-purple-500 decoration-2">more requests & same-day delivery.</span></p>
           <p className="text-3xl font-jakarta600 invisible">contact</p>
           <div className="flex flex-col items-stretch text-center gap-2">
-          <a href="https://superpeer.com/alchemist" className="font-jakarta700 bg-[#FFD23F] hover:bg-yellow-500 py-3 mt-2  text-black rounded">Book a call</a>
-          <a href='https://superpeer.com/alchemist' className=" text-[#d0d0d0] hover:underline text-sm invisible">Book a call</a>
+          <a href="mailto:emre@demirel.io" className="font-jakarta700 bg-[#FFD23F] hover:bg-yellow-500 py-3 mt-2  text-black rounded">Contact us</a>
+          <a href='mailto:emre@demirel.io' className=" text-[#d0d0d0] hover:underline text-sm invisible">Contact us</a>
           </div>
           <h4 className="font-jakarta600 mt-6">What's included?</h4>
           <div className="font-jakarta400 text-[#d0d0d0] grid gap-2">
